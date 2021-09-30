@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Microsoft.Extensions.Primitives;
+using Microsoft.Net.Http.Headers;
+using Newtonsoft.Json;
+using System;
 using System.ComponentModel;
 using System.IO;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Primitives;
-using Microsoft.Net.Http.Headers;
-using Newtonsoft.Json;
 
 namespace Microsoft.AspNetCore.Http.Extensions
 {

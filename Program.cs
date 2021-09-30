@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace c2s.endpoints
+namespace blog.c2s.endpoints
 {
     public class Program
     {

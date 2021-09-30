@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Http;
-using System.Net;
 using Microsoft.Extensions.Primitives;
+using System;
+using System.Net;
 
-namespace c2s.endpoints.RequestDelegates.Environment
+namespace blog.c2s.endpoints.RequestDelegates.Environment
 {
     public class GetUserByIdDelegate
     {

@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Net;
 
-namespace c2s.endpoints.RequestDelegates.Environment
+namespace blog.c2s.endpoints.RequestDelegates.Environment
 {
     public class GetUsersDelegate
     {

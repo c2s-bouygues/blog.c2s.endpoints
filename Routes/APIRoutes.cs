@@ -1,8 +1,8 @@
-﻿using c2s.endpoints.RequestDelegates.Environment;
+﻿using blog.c2s.endpoints.RequestDelegates.Environment;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 
-namespace c2s.endpoints.Routes
+namespace blog.c2s.endpoints.Routes
 {
     public static class APIRoutes
     {
