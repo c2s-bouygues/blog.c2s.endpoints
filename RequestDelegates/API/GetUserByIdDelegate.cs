@@ -16,11 +16,7 @@ namespace blog.c2s.endpoints.RequestDelegates.Environment
             try
             {
                 // On récupère l'Id depuis la route
-                var stringValues = context.Request.Query["id"];
-                var id = !StringValues.IsNullOrEmpty(stringValues)
-                    ? stringValues.ToString()
-                    : null;
-
+                var stringValues = context.Request.RouteValues["id"].ToString();
                 context.Response.StatusCode = (int)HttpStatusCode.NoContent;
             }
             catch (Exception ex)
